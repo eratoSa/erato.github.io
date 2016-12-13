@@ -1,0 +1,76 @@
+.steps.mob{
+	display:none;
+}
+.home .section .download {width: 70%;}
+.home .section.first .download a.btn{	width: 180px !important;}
+.home .section.second .left img {
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.drivers-page .mcontent .info-list .item ul {
+	width: 100% !important;
+	padding-left: 0;
+}
+#header .mmenu ul {
+		margin-top: 0 !important;
+	}
+.logo-menu {
+	background: url(../images/icons/logo-new.svg) 50% 0 no-repeat;
+	background-size: 75px;
+	width: 100%;
+	display: block;
+	margin-bottom: 15px;
+}
+#header .mmenu ul {
+	background-image: none !important;
+	padding-top: 0 !important;
+}
+
+.home .section .logo-wrap {
+	background: none;
+	height: 128px;
+	position: static;
+	width: 100%;
+}
+.home .section .logo-wrap img {
+	display: block;
+	width: 128px;
+	margin: auto;
+}
+.drivers-page p {
+	text-align: center;
+}
+.last-p {
+	text-align: center;
+}
+[type=checkbox]:checked+label:after, [type=checkbox]:not(:checked)+label:after {
+	top: 6px;
+	left: 15px;
+}
+@media only screen and (max-width: 748px) {
+	#header .mmenu ul li a {
+		line-height: 40px !important;
+		font-size: 26px !important;
+	}
+	.home .section .logo-wrap img {
+		width: 95px;
+	}
+	.home .section .download {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width: 968px) {
+	.home .section .download {
+		width: 100% !important;
+	}
+	.home .section.first .download a.btn{
+		width: 50% !important;
+		padding-bottom: 0;
+	}
+	#header .mmenu ul li a.logo-menu {
+		line-height: 75px !important;
+		font-size: 32px !important;
+	}
+}
